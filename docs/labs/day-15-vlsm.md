@@ -4,7 +4,7 @@ Bu labda `192.168.5.0/24` bloğunu farklı büyüklükteki dört LAN ve iki rout
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 15 Lab - VLSM.pkt](../../Day%2015%20Lab%20-%20VLSM.pkt) |
+| Lab dosyası | [Day 15 Lab - VLSM.pkt](../../labs/Day%2015%20Lab%20-%20VLSM.pkt) |
 | Konu | VLSM, subnet sınırları, adres kapasitesi ve statik yönlendirme |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Ana adres bloğu | `192.168.5.0/24` |

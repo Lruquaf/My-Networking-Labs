@@ -4,7 +4,7 @@ Bu labda Packet Tracer çalışma alanını kullanarak iki şube, bu şubeleri b
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 01 Lab - Packet Tracer Introduction.pkt](../../Day%2001%20Lab%20-%20Packet%20Tracer%20Introduction.pkt) |
+| Lab dosyası | [Day 01 Lab - Packet Tracer Introduction.pkt](../../labs/Day%2001%20Lab%20-%20Packet%20Tracer%20Introduction.pkt) |
 | Konu | Ağ cihazları, topoloji oluşturma ve otomatik kablo seçimi |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Kapsam | Cihaz yerleşimi ve kablolama; uçtan uca IP erişimi bu aşamanın hedefi değil |

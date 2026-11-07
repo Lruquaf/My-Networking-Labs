@@ -4,7 +4,7 @@ Bu labda STP topolojisini yalnızca okumak yerine root bridge seçimini ve yol m
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 21 Lab - Configuring Spanning Tree.pkt](../../Day%2021%20Lab%20-%20Configuring%20Spanning%20Tree.pkt) |
+| Lab dosyası | [Day 21 Lab - Configuring Spanning Tree.pkt](../../labs/Day%2021%20Lab%20-%20Configuring%20Spanning%20Tree.pkt) |
 | Konu | PVST+, root primary/secondary, path cost, port priority, PortFast ve BPDU Guard |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Dört Cisco 2960-24TT ve iki PC |

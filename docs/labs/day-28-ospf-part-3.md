@@ -4,7 +4,7 @@ Bu labda hazır adreslenmiş bir ağdaki OSPF sorunlarını giderdim. Yeni seria
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 28 Lab - OSPF (Part 3).pkt](../../Day%2028%20Lab%20-%20OSPF%20%28Part%203%29.pkt) |
+| Lab dosyası | [Day 28 Lab - OSPF (Part 3).pkt](../../labs/Day%2028%20Lab%20-%20OSPF%20%28Part%203%29.pkt) |
 | Konu | DCE clock, OSPF network type, Hello/Dead uyumu, ASBR ve LSDB |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Altı Cisco 2911, üç 2960-24TT ve iki PC |

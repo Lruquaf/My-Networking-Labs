@@ -4,7 +4,7 @@ Bu labda dört router üzerinde EIGRP AS 100 kurdum. Transit bağlantılara ve l
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 25 Lab - EIGRP Configuration.pkt](../../Day%2025%20Lab%20-%20EIGRP%20Configuration.pkt) |
+| Lab dosyası | [Day 25 Lab - EIGRP Configuration.pkt](../../labs/Day%2025%20Lab%20-%20EIGRP%20Configuration.pkt) |
 | Konu | EIGRP, AS numarası, wildcard, passive interface ve variance |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Dört modüler Router-PT-Empty, bir 2960-24TT ve bir PC |

@@ -4,7 +4,7 @@ Bu labda PC1 ile PC2'nin haberleşmesini engelleyen üç ayrı konfigürasyon ha
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 11 Lab - Troubleshooting Static Routes.pkt](../../Day%2011%20Lab%20-%20Troubleshooting%20Static%20Routes.pkt) |
+| Lab dosyası | [Day 11 Lab - Troubleshooting Static Routes.pkt](../../labs/Day%2011%20Lab%20-%20Troubleshooting%20Static%20Routes.pkt) |
 | Konu | Statik rota teşhisi, next hop, arayüz seçimi ve subnet uyumu |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Üç Cisco 2911, iki Cisco 2960-24TT ve iki PC |

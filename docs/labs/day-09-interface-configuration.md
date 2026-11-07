@@ -4,7 +4,7 @@ Bu labda bir router ve iki switch üzerinde arayüzleri isimlendirme, hız/duple
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 09 Lab - Interface Configuration.pkt](../../Day%2009%20Lab%20-%20Interface%20Configuration.pkt) |
+| Lab dosyası | [Day 09 Lab - Interface Configuration.pkt](../../labs/Day%2009%20Lab%20-%20Interface%20Configuration.pkt) |
 | Konu | Arayüz açıklamaları, speed, duplex, interface range ve shutdown |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Ağ | `172.16.0.0/16` |

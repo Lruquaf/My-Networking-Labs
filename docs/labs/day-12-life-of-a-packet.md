@@ -4,7 +4,7 @@ Bu labda bir ICMP paketinin ağ boyunca ilerleyişini, geçtiği her Ethernet ba
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 12 Lab - Life of a Packet.pkt](../../Day%2012%20Lab%20-%20Life%20of%20a%20Packet.pkt) |
+| Lab dosyası | [Day 12 Lab - Life of a Packet.pkt](../../labs/Day%2012%20Lab%20-%20Life%20of%20a%20Packet.pkt) |
 | Konu | Encapsulation, next hop, ARP, Ethernet MAC adresleri ve IPv4 TTL |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Üç Cisco 2911, iki Cisco 2960-24TT ve altı PC |

@@ -4,7 +4,7 @@ Bu labda üç router üzerinden iki ayrı LAN'ı birbirine bağladım. Önce rou
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 11 Lab - Configuring Static Routes.pkt](../../Day%2011%20Lab%20-%20Configuring%20Static%20Routes.pkt) |
+| Lab dosyası | [Day 11 Lab - Configuring Static Routes.pkt](../../labs/Day%2011%20Lab%20-%20Configuring%20Static%20Routes.pkt) |
 | Konu | Statik rota, next hop, çıkış arayüzü ve dönüş yolu |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Üç Cisco 2911, iki Cisco 2960-24TT ve iki PC |

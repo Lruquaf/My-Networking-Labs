@@ -4,7 +4,7 @@ Bu labda VLAN'ları iki switch'e yaydım ve üç VLAN'ın gateway'ini R1'in tek 
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 17 Lab - VLANs (Part 2).pkt](../../Day%2017%20Lab%20-%20VLANs%20%28Part%202%29.pkt) |
+| Lab dosyası | [Day 17 Lab - VLANs (Part 2).pkt](../../labs/Day%2017%20Lab%20-%20VLANs%20%28Part%202%29.pkt) |
 | Konu | Access/trunk ayrımı, allowed VLAN, native VLAN ve ROAS |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Cisco 2911 R1, iki Cisco 2960-24TT ve yedi PC |

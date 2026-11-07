@@ -4,7 +4,7 @@ Bu labda IPv4 ayarları hazır üç LAN'a IPv6 ekledim. R1'de IPv6 yönlendirmey
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 31 Lab - IPv6 Configuration (Part 1).pkt](../../Day%2031%20Lab%20-%20IPv6%20Configuration%20%28Part%201%29.pkt) |
+| Lab dosyası | [Day 31 Lab - IPv6 Configuration (Part 1).pkt](../../labs/Day%2031%20Lab%20-%20IPv6%20Configuration%20%28Part%201%29.pkt) |
 | Konu | Dual-stack, IPv6 prefix, link-local, gateway ve Neighbor Discovery |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Bir Cisco 2911, üç 2960-24TT ve üç PC |

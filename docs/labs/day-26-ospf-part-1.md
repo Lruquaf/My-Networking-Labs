@@ -4,7 +4,7 @@ Bu labda dört router'ı OSPF area 0 içinde birleştirdim ve R1 üzerinden dı�
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 26 Lab - OSPF (Part 1).pkt](../../Day%2026%20Lab%20-%20OSPF%20%28Part%201%29.pkt) |
+| Lab dosyası | [Day 26 Lab - OSPF (Part 1).pkt](../../labs/Day%2026%20Lab%20-%20OSPF%20%28Part%201%29.pkt) |
 | Konu | Area 0, network/wildcard, passive interface, ASBR ve OSPF default |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Beş modüler router, bir 2960-24TT ve bir PC |

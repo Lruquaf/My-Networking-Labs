@@ -4,7 +4,7 @@ Bu labda dört switch arasındaki yedekli bağlantılarda hangi portların trafi
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 20 Lab - Analyzing STP.pkt](../../Day%2020%20Lab%20-%20Analyzing%20STP.pkt) |
+| Lab dosyası | [Day 20 Lab - Analyzing STP.pkt](../../labs/Day%2020%20Lab%20-%20Analyzing%20STP.pkt) |
 | Konu | Root bridge, root port, designated port ve yedek yollar |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Dört Cisco 2960-24TT |

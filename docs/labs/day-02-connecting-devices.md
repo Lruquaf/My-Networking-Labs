@@ -4,7 +4,7 @@ Bu labda otomatik kablo seçiminin arkasındaki mantığa odaklandım. Router, s
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 02 Lab - Connecting Devices.pkt](../../Day%2002%20Lab%20-%20Connecting%20Devices.pkt) |
+| Lab dosyası | [Day 02 Lab - Connecting Devices.pkt](../../labs/Day%2002%20Lab%20-%20Connecting%20Devices.pkt) |
 | Konu | Straight-through, crossover, fiber, MDI/MDI-X ve mesafe |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Lab varsayımı | Auto MDI-X kapalı veya desteklenmiyor |

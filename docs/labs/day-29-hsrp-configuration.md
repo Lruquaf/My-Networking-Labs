@@ -4,7 +4,7 @@ Bu labda PC'lerin tek bir fiziksel router adresine bağımlılığını azaltmak
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 29 Lab - HSRP Configuration.pkt](../../Day%2029%20Lab%20-%20HSRP%20Configuration.pkt) |
+| Lab dosyası | [Day 29 Lab - HSRP Configuration.pkt](../../labs/Day%2029%20Lab%20-%20HSRP%20Configuration.pkt) |
 | Konu | First-hop redundancy, VIP, virtual MAC, priority ve preemption |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Üç Cisco 2911, dört 2960-24TT ve iki PC |

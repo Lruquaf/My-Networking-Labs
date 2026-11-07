@@ -4,7 +4,7 @@ Bu labda üç switch arasında trunk'ları elle yapılandırıp DTP görüşmesi
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 19 Lab - DTP & VTP.pkt](../../Day%2019%20Lab%20-%20DTP%20%26%20VTP.pkt) |
+| Lab dosyası | [Day 19 Lab - DTP & VTP.pkt](../../labs/Day%2019%20Lab%20-%20DTP%20%26%20VTP.pkt) |
 | Konu | Statik trunk, DTP, VTP domain/revision ve access VLAN üyeliği |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Üç Cisco 2960-24TT ve dokuz PC |

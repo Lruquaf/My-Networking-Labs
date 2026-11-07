@@ -4,7 +4,7 @@ Bu labda bir router'ın üç Ethernet arayüzünü farklı IPv4 ağlarına yerle
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 08 Lab - IPv4 Addresses.pkt](../../Day%2008%20Lab%20-%20IPv4%20Addresses.pkt) |
+| Lab dosyası | [Day 08 Lab - IPv4 Addresses.pkt](../../labs/Day%2008%20Lab%20-%20IPv4%20Addresses.pkt) |
 | Konu | IPv4, subnet maskesi, broadcast, gateway ve router arayüzleri |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Bir Cisco 2911, üç Cisco 2960-24TT ve üç PC |

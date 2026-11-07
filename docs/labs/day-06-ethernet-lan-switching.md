@@ -4,7 +4,7 @@ Bu labda iki switch'e bağlı dört PC üzerinden Ethernet iletimini çalıştı
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 06 Lab - Ethernet LAN Switching.pkt](../../Day%2006%20Lab%20-%20Ethernet%20LAN%20Switching.pkt) |
+| Lab dosyası | [Day 06 Lab - Ethernet LAN Switching.pkt](../../labs/Day%2006%20Lab%20-%20Ethernet%20LAN%20Switching.pkt) |
 | Konu | ARP, broadcast, MAC öğrenme, flooding ve unicast forwarding |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Başlangıç varsayımı | Switch MAC tabloları ve PC ARP tabloları boş |

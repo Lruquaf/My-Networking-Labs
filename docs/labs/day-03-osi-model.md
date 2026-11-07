@@ -4,7 +4,7 @@ Bu labda hazır bir ağ topolojisini kullanarak protokolleri OSI katmanlarıyla 
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 03 Lab - OSI Model.pkt](../../Day%2003%20Lab%20-%20OSI%20Model.pkt) |
+| Lab dosyası | [Day 03 Lab - OSI Model.pkt](../../labs/Day%2003%20Lab%20-%20OSI%20Model.pkt) |
 | Konu | OSI katmanları, encapsulation, DHCP ve Simulation Mode |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Temel görev | Ağdaki trafiği katmanlarıyla açıklamak; PC1'in DHCP adres alma sürecini incelemek |

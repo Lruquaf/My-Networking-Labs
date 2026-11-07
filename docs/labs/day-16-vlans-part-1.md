@@ -4,7 +4,7 @@ Bu labda tek switch üzerindeki altı PC'yi üç VLAN'a ayırdım. Her VLAN içi
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 16 Lab - VLANs (Part 1).pkt](../../Day%2016%20Lab%20-%20VLANs%20%28Part%201%29.pkt) |
+| Lab dosyası | [Day 16 Lab - VLANs (Part 1).pkt](../../labs/Day%2016%20Lab%20-%20VLANs%20%28Part%201%29.pkt) |
 | Konu | Access VLAN, broadcast domain ve fiziksel arayüzlerle inter-VLAN routing |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Cisco 2911 R1, modüler Switch-PT-Empty SW1 ve altı PC |

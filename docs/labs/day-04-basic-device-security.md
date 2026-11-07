@@ -4,7 +4,7 @@ Bu labda router ve switch üzerinde cihaz isimlendirmesi, privileged EXEC erişi
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 04 Lab - Basic Device Security.pkt](../../Day%2004%20Lab%20-%20Basic%20Device%20Security.pkt) |
+| Lab dosyası | [Day 04 Lab - Basic Device Security.pkt](../../labs/Day%2004%20Lab%20-%20Basic%20Device%20Security.pkt) |
 | Konu | IOS modları, hostname, enable parolaları ve startup-config |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Cisco 2911 R1, Cisco 2960-24TT SW1 ve üç PC |

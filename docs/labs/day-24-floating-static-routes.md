@@ -4,7 +4,7 @@ Bu labda iki kurumsal LAN arasındaki doğrudan OSPF yoluna sağlayıcı üzerin
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 24 Lab - Floating Static Routes.pkt](../../Day%2024%20Lab%20-%20Floating%20Static%20Routes.pkt) |
+| Lab dosyası | [Day 24 Lab - Floating Static Routes.pkt](../../labs/Day%2024%20Lab%20-%20Floating%20Static%20Routes.pkt) |
 | Konu | OSPF, administrative distance, longest prefix match ve statik yedek yol |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Altı Cisco 2911, iki 2960-24TT, bir PC ve bir sunucu |

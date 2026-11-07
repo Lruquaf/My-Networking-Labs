@@ -4,7 +4,7 @@ Bu labda Rapid PVST+ çalışan dört switch'i, iki hub'ı ve altı PC'yi incele
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 22 Lab - Rapid STP.pkt](../../Day%2022%20Lab%20-%20Rapid%20STP.pkt) |
+| Lab dosyası | [Day 22 Lab - Rapid STP.pkt](../../labs/Day%2022%20Lab%20-%20Rapid%20STP.pkt) |
 | Konu | RSTP rolleri, alternate/backup, link type ve PortFast |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Dört Cisco 2960-24TT, iki Hub-PT ve altı PC |

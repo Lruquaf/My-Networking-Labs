@@ -4,7 +4,7 @@ Bu labda iki fiziksel bağlantıyı tek mantıksal arayüz altında topladım. A
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 23 Lab - EtherChannel.pkt](../../Day%2023%20Lab%20-%20EtherChannel.pkt) |
+| Lab dosyası | [Day 23 Lab - EtherChannel.pkt](../../labs/Day%2023%20Lab%20-%20EtherChannel.pkt) |
 | Konu | LACP, PAgP, statik EtherChannel, routed Port-channel ve hashing |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | İki 2960-24TT, iki 3650-24PS, iki PC ve bir sunucu |

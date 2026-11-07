@@ -4,7 +4,7 @@ Bu labda VLAN'lar arası yönlendirmeyi R1'deki router-on-a-stick yapısından S
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 18 Lab - Multilayer Switching.pkt](../../Day%2018%20Lab%20-%20Multilayer%20Switching.pkt) |
+| Lab dosyası | [Day 18 Lab - Multilayer Switching.pkt](../../labs/Day%2018%20Lab%20-%20Multilayer%20Switching.pkt) |
 | Konu | SVI, `ip routing`, `no switchport`, default route ve dönüş rotası |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Cisco 3650-24PS SW2, Cisco 2960-24TT SW1, iki Cisco 2911 ve yedi PC |

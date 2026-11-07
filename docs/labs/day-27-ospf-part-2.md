@@ -4,7 +4,7 @@ Bu labda OSPF'yi `network` satırları yerine doğrudan arayüzlerde etkinleşti
 
 | Alan | Açıklama |
 | --- | --- |
-| Lab dosyası | [Day 27 Lab - OSPF (Part 2).pkt](../../Day%2027%20Lab%20-%20OSPF%20%28Part%202%29.pkt) |
+| Lab dosyası | [Day 27 Lab - OSPF (Part 2).pkt](../../labs/Day%2027%20Lab%20-%20OSPF%20%28Part%202%29.pkt) |
 | Konu | Interface OSPF, passive default, reference bandwidth, E2 yol seçimi ve Hello |
 | Ortam | Cisco Packet Tracer 9.0.1 |
 | Cihazlar | Beş modüler router, bir 2960-24TT ve bir PC |
