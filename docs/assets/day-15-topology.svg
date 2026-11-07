@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="818pt" height="403pt"
+ viewBox="0.00 0.00 817.60 402.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 373.8)">
+<title>lab</title>
+<polygon fill="#f5f8fd" stroke="transparent" points="-28.8,28.8 -28.8,-373.8 788.8,-373.8 788.8,28.8 -28.8,28.8"/>
+<text text-anchor="middle" x="380" y="-324.2" font-family="DejaVu Sans" font-size="21.00" fill="#193452">Day 15 · VLSM</text>
+<g id="node1" class="node">
+<title>R1</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M267,-314C267,-314 97,-314 97,-314 91,-314 85,-308 85,-302 85,-302 85,-238 85,-238 85,-232 91,-226 97,-226 97,-226 267,-226 267,-226 273,-226 279,-232 279,-238 279,-238 279,-302 279,-302 279,-308 273,-314 267,-314"/>
+<text text-anchor="middle" x="182" y="-294.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">R1</text>
+<text text-anchor="middle" x="182" y="-280.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">2911</text>
+<text text-anchor="middle" x="182" y="-266.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">G0/0: 192.168.5.190/26</text>
+<text text-anchor="middle" x="182" y="-252.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">G0/1: 192.168.5.126/25</text>
+<text text-anchor="middle" x="182" y="-238.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">G0/0/0: 192.168.5.225/30</text>
+</g>
+<g id="node2" class="node">
+<title>R2</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M569,-314C569,-314 399,-314 399,-314 393,-314 387,-308 387,-302 387,-302 387,-238 387,-238 387,-232 393,-226 399,-226 399,-226 569,-226 569,-226 575,-226 581,-232 581,-238 581,-238 581,-302 581,-302 581,-308 575,-314 569,-314"/>
+<text text-anchor="middle" x="484" y="-294.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">R2</text>
+<text text-anchor="middle" x="484" y="-280.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">2911</text>
+<text text-anchor="middle" x="484" y="-266.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">G0/0: 192.168.5.206/28</text>
+<text text-anchor="middle" x="484" y="-252.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">G0/1: 192.168.5.222/28</text>
+<text text-anchor="middle" x="484" y="-238.6" font-family="DejaVu Sans" font-size="13.00" fill="#ffffff">G0/0/0: 192.168.5.226/30</text>
+</g>
+<g id="edge10" class="edge">
+<title>R1&#45;&#45;R2</title>
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M279.22,-270C313.7,-270 352.49,-270 386.97,-270"/>
+<text text-anchor="middle" x="333" y="-287" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/0/0 ↔ G0/0/0</text>
+<text text-anchor="middle" x="333" y="-276" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Fiber</text>
+</g>
+<g id="node3" class="node">
+<title>SW1</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M169,-173C169,-173 99,-173 99,-173 93,-173 87,-167 87,-161 87,-161 87,-139 87,-139 87,-133 93,-127 99,-127 99,-127 169,-127 169,-127 175,-127 181,-133 181,-139 181,-139 181,-161 181,-161 181,-167 175,-173 169,-173"/>
+<text text-anchor="middle" x="134" y="-153.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW1</text>
+<text text-anchor="middle" x="134" y="-139.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="edge11" class="edge">
+<title>R1&#45;&#45;SW1</title>
+<g id="a_edge11"><a xlink:title="R1 GigabitEthernet0/0 ↔ SW1 GigabitEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M164.4,-225.73C157.12,-207.84 149,-187.87 142.98,-173.07"/>
+</a>
+</g>
+<text text-anchor="middle" x="142.43" y="-187.56" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1</text>
+<text text-anchor="middle" x="164.95" y="-206.24" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/0</text>
+</g>
+<g id="node4" class="node">
+<title>SW2</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M323,-173C323,-173 253,-173 253,-173 247,-173 241,-167 241,-161 241,-161 241,-139 241,-139 241,-133 247,-127 253,-127 253,-127 323,-127 323,-127 329,-127 335,-133 335,-139 335,-139 335,-161 335,-161 335,-167 329,-173 323,-173"/>
+<text text-anchor="middle" x="288" y="-153.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW2</text>
+<text text-anchor="middle" x="288" y="-139.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="edge12" class="edge">
+<title>R1&#45;&#45;SW2</title>
+<g id="a_edge12"><a xlink:title="R1 GigabitEthernet0/1 ↔ SW2 GigabitEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M220.87,-225.73C236.94,-207.84 254.88,-187.87 268.17,-173.07"/>
+</a>
+</g>
+<text text-anchor="middle" x="252.65" y="-177.51" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1</text>
+<text text-anchor="middle" x="236.39" y="-216.3" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1</text>
+</g>
+<g id="node5" class="node">
+<title>SW3</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M477,-173C477,-173 407,-173 407,-173 401,-173 395,-167 395,-161 395,-161 395,-139 395,-139 395,-133 401,-127 407,-127 407,-127 477,-127 477,-127 483,-127 489,-133 489,-139 489,-139 489,-161 489,-161 489,-167 483,-173 477,-173"/>
+<text text-anchor="middle" x="442" y="-153.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW3</text>
+<text text-anchor="middle" x="442" y="-139.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="edge13" class="edge">
+<title>R2&#45;&#45;SW3</title>
+<g id="a_edge13"><a xlink:title="R2 GigabitEthernet0/0 ↔ SW3 GigabitEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M468.6,-225.73C462.23,-207.84 455.12,-187.87 449.86,-173.07"/>
+</a>
+</g>
+<text text-anchor="middle" x="448.55" y="-187.52" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1</text>
+<text text-anchor="middle" x="469.91" y="-206.28" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/0</text>
+</g>
+<g id="node6" class="node">
+<title>SW4</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M631,-173C631,-173 561,-173 561,-173 555,-173 549,-167 549,-161 549,-161 549,-139 549,-139 549,-133 555,-127 561,-127 561,-127 631,-127 631,-127 637,-127 643,-133 643,-139 643,-139 643,-161 643,-161 643,-167 637,-173 631,-173"/>
+<text text-anchor="middle" x="596" y="-153.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW4</text>
+<text text-anchor="middle" x="596" y="-139.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="edge14" class="edge">
+<title>R2&#45;&#45;SW4</title>
+<g id="a_edge14"><a xlink:title="R2 GigabitEthernet0/1 ↔ SW4 GigabitEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M525.07,-225.73C542.05,-207.84 561.01,-187.87 575.05,-173.07"/>
+</a>
+</g>
+<text text-anchor="middle" x="559.34" y="-177.08" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1</text>
+<text text-anchor="middle" x="540.78" y="-216.73" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1</text>
+</g>
+<g id="node7" class="node">
+<title>PC1</title>
+<path fill="#e2f1ea" stroke="#b7d6c9" stroke-width="1.3" d="M130,-74C130,-74 12,-74 12,-74 6,-74 0,-68 0,-62 0,-62 0,-12 0,-12 0,-6 6,0 12,0 12,0 130,0 130,0 136,0 142,-6 142,-12 142,-12 142,-62 142,-62 142,-68 136,-74 130,-74"/>
+<text text-anchor="middle" x="71" y="-54.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC1</text>
+<text text-anchor="middle" x="71" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="71" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">LAN 1</text>
+<text text-anchor="middle" x="71" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">192.168.5.129/26</text>
+</g>
+<g id="edge15" class="edge">
+<title>SW1&#45;&#45;PC1</title>
+<g id="a_edge15"><a xlink:title="SW1 FastEthernet0/1 ↔ PC1 FastEthernet0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M121.4,-126.8C112.86,-111.75 101.36,-91.5 91.51,-74.14"/>
+</a>
+</g>
+<text text-anchor="middle" x="94.62" y="-103.49" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0</text>
+<text text-anchor="middle" x="118.29" y="-92.46" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1</text>
+</g>
+<g id="node8" class="node">
+<title>PC2</title>
+<path fill="#e2f1ea" stroke="#b7d6c9" stroke-width="1.3" d="M314.5,-74C314.5,-74 213.5,-74 213.5,-74 207.5,-74 201.5,-68 201.5,-62 201.5,-62 201.5,-12 201.5,-12 201.5,-6 207.5,0 213.5,0 213.5,0 314.5,0 314.5,0 320.5,0 326.5,-6 326.5,-12 326.5,-12 326.5,-62 326.5,-62 326.5,-68 320.5,-74 314.5,-74"/>
+<text text-anchor="middle" x="264" y="-54.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC2</text>
+<text text-anchor="middle" x="264" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="264" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">LAN 2</text>
+<text text-anchor="middle" x="264" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">192.168.5.1/25</text>
+</g>
+<g id="edge16" class="edge">
+<title>SW2&#45;&#45;PC2</title>
+<g id="a_edge16"><a xlink:title="SW2 FastEthernet0/1 ↔ PC2 FastEthernet0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M283.2,-126.8C279.95,-111.75 275.57,-91.5 271.81,-74.14"/>
+</a>
+</g>
+<text text-anchor="middle" x="265.27" y="-102.96" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0</text>
+<text text-anchor="middle" x="289.74" y="-92.98" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1</text>
+</g>
+<g id="node9" class="node">
+<title>PC3</title>
+<path fill="#e2f1ea" stroke="#b7d6c9" stroke-width="1.3" d="M516,-74C516,-74 398,-74 398,-74 392,-74 386,-68 386,-62 386,-62 386,-12 386,-12 386,-6 392,0 398,0 398,0 516,0 516,0 522,0 528,-6 528,-12 528,-12 528,-62 528,-62 528,-68 522,-74 516,-74"/>
+<text text-anchor="middle" x="457" y="-54.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC3</text>
+<text text-anchor="middle" x="457" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="457" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">LAN 3</text>
+<text text-anchor="middle" x="457" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">192.168.5.193/28</text>
+</g>
+<g id="edge17" class="edge">
+<title>SW3&#45;&#45;PC3</title>
+<g id="a_edge17"><a xlink:title="SW3 FastEthernet0/1 ↔ PC3 FastEthernet0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M445,-126.8C447.03,-111.75 449.77,-91.5 452.12,-74.14"/>
+</a>
+</g>
+<text text-anchor="middle" x="435.3" y="-98.87" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0</text>
+<text text-anchor="middle" x="461.81" y="-97.08" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1</text>
+</g>
+<g id="node10" class="node">
+<title>PC4</title>
+<path fill="#e2f1ea" stroke="#b7d6c9" stroke-width="1.3" d="M718,-74C718,-74 600,-74 600,-74 594,-74 588,-68 588,-62 588,-62 588,-12 588,-12 588,-6 594,0 600,0 600,0 718,0 718,0 724,0 730,-6 730,-12 730,-12 730,-62 730,-62 730,-68 724,-74 718,-74"/>
+<text text-anchor="middle" x="659" y="-54.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC4</text>
+<text text-anchor="middle" x="659" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="659" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">LAN 4</text>
+<text text-anchor="middle" x="659" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">192.168.5.209/28</text>
+</g>
+<g id="edge18" class="edge">
+<title>SW4&#45;&#45;PC4</title>
+<g id="a_edge18"><a xlink:title="SW4 FastEthernet0/1 ↔ PC4 FastEthernet0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M608.6,-126.8C617.14,-111.75 628.64,-91.5 638.49,-74.14"/>
+</a>
+</g>
+<text text-anchor="middle" x="612.74" y="-90.64" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0</text>
+<text text-anchor="middle" x="634.35" y="-105.3" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1</text>
+</g>
+</g>
+</svg>

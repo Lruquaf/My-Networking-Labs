@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="858pt" height="286pt"
+ viewBox="0.00 0.00 857.60 285.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 256.8)">
+<title>lab</title>
+<polygon fill="#f5f8fd" stroke="transparent" points="-28.8,28.8 -28.8,-256.8 828.8,-256.8 828.8,28.8 -28.8,28.8"/>
+<text text-anchor="middle" x="400" y="-207.2" font-family="DejaVu Sans" font-size="21.00" fill="#193452">Day 03 · OSI ve DHCP</text>
+<g id="node1" class="node">
+<title>SW1</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M307.5,-48C307.5,-48 229.5,-48 229.5,-48 223.5,-48 217.5,-42 217.5,-36 217.5,-36 217.5,-12 217.5,-12 217.5,-6 223.5,0 229.5,0 229.5,0 307.5,0 307.5,0 313.5,0 319.5,-6 319.5,-12 319.5,-12 319.5,-36 319.5,-36 319.5,-42 313.5,-48 307.5,-48"/>
+<text text-anchor="middle" x="268.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">SW1</text>
+<text text-anchor="middle" x="268.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node2" class="node">
+<title>SW2</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M496.5,-48C496.5,-48 418.5,-48 418.5,-48 412.5,-48 406.5,-42 406.5,-36 406.5,-36 406.5,-12 406.5,-12 406.5,-6 412.5,0 418.5,0 418.5,0 496.5,0 496.5,0 502.5,0 508.5,-6 508.5,-12 508.5,-12 508.5,-36 508.5,-36 508.5,-42 502.5,-48 496.5,-48"/>
+<text text-anchor="middle" x="457.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">SW2</text>
+<text text-anchor="middle" x="457.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="edge4" class="edge">
+<title>SW2&#45;&#45;SW1</title>
+<g id="a_edge4"><a xlink:title="SW2 GigabitEthernet0/1 ↔ SW1 GigabitEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M406.31,-24C379.41,-24 346.54,-24 319.65,-24"/>
+</a>
+</g>
+<text text-anchor="middle" x="363" y="-30" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ G0/1</text>
+</g>
+<g id="node3" class="node">
+<title>PC1</title>
+<path fill="#e2f1ea" stroke="#bccce0" stroke-width="1.3" d="M788,-185C788,-185 633,-185 633,-185 627,-185 621,-179 621,-173 621,-173 621,-119 621,-119 621,-113 627,-107 633,-107 633,-107 788,-107 788,-107 794,-107 800,-113 800,-119 800,-119 800,-173 800,-173 800,-179 794,-185 788,-185"/>
+<text text-anchor="middle" x="710.5" y="-164.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">PC1</text>
+<text text-anchor="middle" x="710.5" y="-149.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="710.5" y="-134.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">DHCP istemcisi</text>
+<text text-anchor="middle" x="710.5" y="-119.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">Kayıtlı IPv4 adresi yok</text>
+</g>
+<g id="edge6" class="edge">
+<title>PC1&#45;&#45;SW2</title>
+<g id="a_edge6"><a xlink:title="PC1 FastEthernet0 ↔ SW2 FastEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M630.1,-106.87C589.3,-87.51 541.08,-64.64 506,-48"/>
+</a>
+</g>
+<text text-anchor="middle" x="599.5" y="-75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/1</text>
+</g>
+<g id="node4" class="node">
+<title>SRV1</title>
+<path fill="#e2f1ea" stroke="#bccce0" stroke-width="1.3" d="M141,-185C141,-185 12,-185 12,-185 6,-185 0,-179 0,-173 0,-173 0,-119 0,-119 0,-113 6,-107 12,-107 12,-107 141,-107 141,-107 147,-107 153,-113 153,-119 153,-119 153,-173 153,-173 153,-179 147,-185 141,-185"/>
+<text text-anchor="middle" x="76.5" y="-164.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">SRV1</text>
+<text text-anchor="middle" x="76.5" y="-149.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">Server&#45;PT</text>
+<text text-anchor="middle" x="76.5" y="-134.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">192.168.1.100/24</text>
+<text text-anchor="middle" x="76.5" y="-119.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">DHCP: .10–.98</text>
+</g>
+<g id="edge5" class="edge">
+<title>SRV1&#45;&#45;SW1</title>
+<g id="a_edge5"><a xlink:title="SRV1 FastEthernet0 ↔ SW1 FastEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M137.51,-106.87C168.48,-87.51 205.07,-64.64 231.7,-48"/>
+</a>
+</g>
+<text text-anchor="middle" x="213.5" y="-75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/1</text>
+</g>
+<g id="node5" class="node">
+<title>R1</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M345,-185C345,-185 192,-185 192,-185 186,-185 180,-179 180,-173 180,-173 180,-119 180,-119 180,-113 186,-107 192,-107 192,-107 345,-107 345,-107 351,-107 357,-113 357,-119 357,-119 357,-173 357,-173 357,-179 351,-185 345,-185"/>
+<text text-anchor="middle" x="268.5" y="-164.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">R1</text>
+<text text-anchor="middle" x="268.5" y="-149.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">2911</text>
+<text text-anchor="middle" x="268.5" y="-134.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">G0/0: 192.168.1.1/24</text>
+<text text-anchor="middle" x="268.5" y="-119.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">G0/1: 10.0.0.1/24</text>
+</g>
+<g id="edge7" class="edge">
+<title>R1&#45;&#45;SW1</title>
+<g id="a_edge7"><a xlink:title="R1 GigabitEthernet0/0 ↔ SW1 GigabitEthernet0/2">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M268.5,-106.7C268.5,-87.5 268.5,-64.86 268.5,-48.29"/>
+</a>
+</g>
+<text text-anchor="middle" x="298.5" y="-75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/0 ↔ G0/2</text>
+</g>
+<g id="node6" class="node">
+<title>R2</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M581.5,-177.5C581.5,-177.5 455.5,-177.5 455.5,-177.5 449.5,-177.5 443.5,-171.5 443.5,-165.5 443.5,-165.5 443.5,-126.5 443.5,-126.5 443.5,-120.5 449.5,-114.5 455.5,-114.5 455.5,-114.5 581.5,-114.5 581.5,-114.5 587.5,-114.5 593.5,-120.5 593.5,-126.5 593.5,-126.5 593.5,-165.5 593.5,-165.5 593.5,-171.5 587.5,-177.5 581.5,-177.5"/>
+<text text-anchor="middle" x="518.5" y="-157.3" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">R2</text>
+<text text-anchor="middle" x="518.5" y="-142.3" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">2911</text>
+<text text-anchor="middle" x="518.5" y="-127.3" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">G0/0: 10.0.0.2/24</text>
+</g>
+<g id="edge8" class="edge">
+<title>R1&#45;&#45;R2</title>
+<g id="a_edge8"><a xlink:title="R1 GigabitEthernet0/1 ↔ R2 GigabitEthernet0/0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M357.34,-146C385.41,-146 416.14,-146 443.17,-146"/>
+</a>
+</g>
+<text text-anchor="middle" x="400.25" y="-152" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ G0/0</text>
+</g>
+</g>
+</svg>

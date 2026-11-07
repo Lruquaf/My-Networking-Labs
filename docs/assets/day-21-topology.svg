@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="710pt" height="503pt"
+ viewBox="0.00 0.00 709.60 503.20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 474.4)">
+<title>lab</title>
+<polygon fill="#f5f8fd" stroke="transparent" points="-28.8,28.8 -28.8,-474.4 680.8,-474.4 680.8,28.8 -28.8,28.8"/>
+<text text-anchor="middle" x="326" y="-424" font-family="DejaVu Sans" font-size="22.00" fill="#193452">Day 21 · VLAN bazında STP</text>
+<g id="edge5" class="edge">
+<title>SW1&#45;&#45;SW2</title>
+<g id="a_edge5"><a xlink:title="SW1 F0/3 ↔ SW2 F0/3">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M231.04,-206.8C287.45,-206.8 364.42,-206.8 420.86,-206.8"/>
+</a>
+</g>
+<text text-anchor="middle" x="297.44" y="-209.8" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/3 ↔ F0/3</text>
+</g>
+<g id="edge3" class="edge">
+<title>SW1&#45;&#45;SW4</title>
+<g id="a_edge3"><a xlink:title="SW1 F0/2 ↔ SW4 F0/2">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M191.64,-169.74C222.89,-137.23 267.77,-90.56 296.9,-60.26"/>
+</a>
+</g>
+<text text-anchor="middle" x="216.57" y="-117.17" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/2 ↔ F0/2</text>
+</g>
+<g id="edge2" class="edge">
+<title>SW2&#45;&#45;SW4</title>
+<g id="a_edge2"><a xlink:title="SW2 F0/1 ↔ SW4 F0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M460.36,-169.74C429.11,-137.23 384.23,-90.56 355.1,-60.26"/>
+</a>
+</g>
+<text text-anchor="middle" x="378.43" y="-117.17" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1 ↔ F0/1</text>
+</g>
+<g id="edge1" class="edge">
+<title>SW3&#45;&#45;SW1</title>
+<g id="a_edge1"><a xlink:title="SW3 F0/1 ↔ SW1 F0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M303.78,-360.49C275.34,-330.91 225.71,-279.3 191.88,-244.12"/>
+</a>
+</g>
+<text text-anchor="middle" x="221.35" y="-307.4" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1 ↔ F0/1</text>
+</g>
+<g id="edge4" class="edge">
+<title>SW3&#45;&#45;SW2</title>
+<g id="a_edge4"><a xlink:title="SW3 F0/2 ↔ SW2 F0/2">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M348.22,-360.49C376.66,-330.91 426.29,-279.3 460.12,-244.12"/>
+</a>
+</g>
+<text text-anchor="middle" x="373.65" y="-307.4" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/2 ↔ F0/2</text>
+</g>
+<g id="edge6" class="edge">
+<title>SW4&#45;&#45;PC2</title>
+<g id="a_edge6"><a xlink:title="SW4 F0/3 ↔ PC2 F0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M385.75,-30C413.01,-30 445.85,-30 475.87,-30"/>
+</a>
+</g>
+<text text-anchor="middle" x="441.78" y="-22" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/3 ↔ F0</text>
+</g>
+<g id="edge7" class="edge">
+<title>PC1&#45;&#45;SW3</title>
+<g id="a_edge7"><a xlink:title="PC1 F0 ↔ SW3 F0/3">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M176.28,-383.6C211.08,-383.6 249.63,-383.6 278.9,-383.6"/>
+</a>
+</g>
+<text text-anchor="middle" x="205.66" y="-386.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/3</text>
+</g>
+<g id="node1" class="node">
+<title>SW1</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M219,-243.8C219,-243.8 93,-243.8 93,-243.8 87,-243.8 81,-237.8 81,-231.8 81,-231.8 81,-181.8 81,-181.8 81,-175.8 87,-169.8 93,-169.8 93,-169.8 219,-169.8 219,-169.8 225,-169.8 231,-175.8 231,-181.8 231,-181.8 231,-231.8 231,-231.8 231,-237.8 225,-243.8 219,-243.8"/>
+<text text-anchor="middle" x="156" y="-224.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW1</text>
+<text text-anchor="middle" x="156" y="-210.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+<text text-anchor="middle" x="156" y="-196.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">VLAN 1: primary</text>
+<text text-anchor="middle" x="156" y="-182.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">VLAN 2: secondary</text>
+</g>
+<g id="node2" class="node">
+<title>SW2</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M559,-243.8C559,-243.8 433,-243.8 433,-243.8 427,-243.8 421,-237.8 421,-231.8 421,-231.8 421,-181.8 421,-181.8 421,-175.8 427,-169.8 433,-169.8 433,-169.8 559,-169.8 559,-169.8 565,-169.8 571,-175.8 571,-181.8 571,-181.8 571,-231.8 571,-231.8 571,-237.8 565,-243.8 559,-243.8"/>
+<text text-anchor="middle" x="496" y="-224.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW2</text>
+<text text-anchor="middle" x="496" y="-210.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+<text text-anchor="middle" x="496" y="-196.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">VLAN 2: primary</text>
+<text text-anchor="middle" x="496" y="-182.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">VLAN 1: secondary</text>
+</g>
+<g id="node3" class="node">
+<title>SW3</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M361,-406.6C361,-406.6 291,-406.6 291,-406.6 285,-406.6 279,-400.6 279,-394.6 279,-394.6 279,-372.6 279,-372.6 279,-366.6 285,-360.6 291,-360.6 291,-360.6 361,-360.6 361,-360.6 367,-360.6 373,-366.6 373,-372.6 373,-372.6 373,-394.6 373,-394.6 373,-400.6 367,-406.6 361,-406.6"/>
+<text text-anchor="middle" x="326" y="-387.2" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW3</text>
+<text text-anchor="middle" x="326" y="-373.2" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node4" class="node">
+<title>SW4</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M373.5,-60C373.5,-60 278.5,-60 278.5,-60 272.5,-60 266.5,-54 266.5,-48 266.5,-48 266.5,-12 266.5,-12 266.5,-6 272.5,0 278.5,0 278.5,0 373.5,0 373.5,0 379.5,0 385.5,-6 385.5,-12 385.5,-12 385.5,-48 385.5,-48 385.5,-54 379.5,-60 373.5,-60"/>
+<text text-anchor="middle" x="326" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW4</text>
+<text text-anchor="middle" x="326" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+<text text-anchor="middle" x="326" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">F0/2: cost 100</text>
+</g>
+<g id="node5" class="node">
+<title>PC2</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M640,-60C640,-60 488,-60 488,-60 482,-60 476,-54 476,-48 476,-48 476,-12 476,-12 476,-6 482,0 488,0 488,0 640,0 640,0 646,0 652,-6 652,-12 652,-12 652,-48 652,-48 652,-54 646,-60 640,-60"/>
+<text text-anchor="middle" x="564" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC2</text>
+<text text-anchor="middle" x="564" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="564" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">VLAN 2 · IP atanmamış</text>
+</g>
+<g id="node6" class="node">
+<title>PC1</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M164,-413.6C164,-413.6 12,-413.6 12,-413.6 6,-413.6 0,-407.6 0,-401.6 0,-401.6 0,-365.6 0,-365.6 0,-359.6 6,-353.6 12,-353.6 12,-353.6 164,-353.6 164,-353.6 170,-353.6 176,-359.6 176,-365.6 176,-365.6 176,-401.6 176,-401.6 176,-407.6 170,-413.6 164,-413.6"/>
+<text text-anchor="middle" x="88" y="-394.2" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC1</text>
+<text text-anchor="middle" x="88" y="-380.2" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="88" y="-366.2" font-family="DejaVu Sans" font-size="13.00" fill="#235441">VLAN 1 · IP atanmamış</text>
+</g>
+</g>
+</svg>

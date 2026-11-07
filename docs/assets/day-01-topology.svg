@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="537pt" height="565pt"
+ viewBox="0.00 0.00 537.10 564.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 535.8)">
+<title>lab</title>
+<polygon fill="#f5f8fd" stroke="transparent" points="-28.8,28.8 -28.8,-535.8 508.3,-535.8 508.3,28.8 -28.8,28.8"/>
+<text text-anchor="middle" x="239.75" y="-486.2" font-family="DejaVu Sans" font-size="21.00" fill="#193452">Day 01 · İlk ağ topolojisi</text>
+<g id="node1" class="node">
+<title>The Internet</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M328.5,-476C328.5,-476 241.5,-476 241.5,-476 235.5,-476 229.5,-470 229.5,-464 229.5,-464 229.5,-440 229.5,-440 229.5,-434 235.5,-428 241.5,-428 241.5,-428 328.5,-428 328.5,-428 334.5,-428 340.5,-434 340.5,-440 340.5,-440 340.5,-464 340.5,-464 340.5,-470 334.5,-476 328.5,-476"/>
+<text text-anchor="middle" x="285" y="-455.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">The Internet</text>
+<text text-anchor="middle" x="285" y="-440.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">2911</text>
+</g>
+<g id="node5" class="node">
+<title>R2</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M304.5,-369C304.5,-369 265.5,-369 265.5,-369 259.5,-369 253.5,-363 253.5,-357 253.5,-357 253.5,-333 253.5,-333 253.5,-327 259.5,-321 265.5,-321 265.5,-321 304.5,-321 304.5,-321 310.5,-321 316.5,-327 316.5,-333 316.5,-333 316.5,-357 316.5,-357 316.5,-363 310.5,-369 304.5,-369"/>
+<text text-anchor="middle" x="285" y="-348.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">R2</text>
+<text text-anchor="middle" x="285" y="-333.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">1941</text>
+</g>
+<g id="edge14" class="edge">
+<title>The Internet&#45;&#45;R2</title>
+<g id="a_edge14"><a xlink:title="The Internet GigabitEthernet0/2 ↔ R2 GigabitEthernet0/0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M285,-427.96C285,-410.57 285,-386.81 285,-369.35"/>
+</a>
+</g>
+<text text-anchor="middle" x="315" y="-396" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/2 ↔ G0/0</text>
+</g>
+<g id="node8" class="node">
+<title>ATTACKER</title>
+<path fill="#f8e7e9" stroke="#bccce0" stroke-width="1.3" d="M455.5,-369C455.5,-369 382.5,-369 382.5,-369 376.5,-369 370.5,-363 370.5,-357 370.5,-357 370.5,-333 370.5,-333 370.5,-327 376.5,-321 382.5,-321 382.5,-321 455.5,-321 455.5,-321 461.5,-321 467.5,-327 467.5,-333 467.5,-333 467.5,-357 467.5,-357 467.5,-363 461.5,-369 455.5,-369"/>
+<text text-anchor="middle" x="419" y="-348.8" font-family="DejaVu Sans" font-size="14.00" fill="#7a3544">ATTACKER</text>
+<text text-anchor="middle" x="419" y="-333.8" font-family="DejaVu Sans" font-size="14.00" fill="#7a3544">Laptop&#45;PT</text>
+</g>
+<g id="edge13" class="edge">
+<title>The Internet&#45;&#45;ATTACKER</title>
+<g id="a_edge13"><a xlink:title="The Internet GigabitEthernet0/1 ↔ ATTACKER FastEthernet0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M317.61,-427.78C334.24,-415.93 351,-404 351,-404 351,-404 372.82,-385.39 391.73,-369.26"/>
+</a>
+</g>
+<text text-anchor="middle" x="386.5" y="-396" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ F0</text>
+</g>
+<g id="node2" class="node">
+<title>SW1</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M178,-155C178,-155 100,-155 100,-155 94,-155 88,-149 88,-143 88,-143 88,-119 88,-119 88,-113 94,-107 100,-107 100,-107 178,-107 178,-107 184,-107 190,-113 190,-119 190,-119 190,-143 190,-143 190,-149 184,-155 178,-155"/>
+<text text-anchor="middle" x="139" y="-134.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">SW1</text>
+<text text-anchor="middle" x="139" y="-119.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node3" class="node">
+<title>SW2</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M334,-155C334,-155 256,-155 256,-155 250,-155 244,-149 244,-143 244,-143 244,-119 244,-119 244,-113 250,-107 256,-107 256,-107 334,-107 334,-107 340,-107 346,-113 346,-119 346,-119 346,-143 346,-143 346,-149 340,-155 334,-155"/>
+<text text-anchor="middle" x="295" y="-134.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">SW2</text>
+<text text-anchor="middle" x="295" y="-119.8" font-family="DejaVu Sans" font-size="14.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node4" class="node">
+<title>R1</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M187.5,-262C187.5,-262 148.5,-262 148.5,-262 142.5,-262 136.5,-256 136.5,-250 136.5,-250 136.5,-226 136.5,-226 136.5,-220 142.5,-214 148.5,-214 148.5,-214 187.5,-214 187.5,-214 193.5,-214 199.5,-220 199.5,-226 199.5,-226 199.5,-250 199.5,-250 199.5,-256 193.5,-262 187.5,-262"/>
+<text text-anchor="middle" x="168" y="-241.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">R1</text>
+<text text-anchor="middle" x="168" y="-226.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">1941</text>
+</g>
+<g id="edge10" class="edge">
+<title>SW1&#45;&#45;R1</title>
+<g id="a_edge10"><a xlink:title="SW1 FastEthernet0/3 ↔ R1 GigabitEthernet0/0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M145.45,-155.35C150.27,-172.81 156.83,-196.57 161.64,-213.96"/>
+</a>
+</g>
+<text text-anchor="middle" x="184" y="-182" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/3 ↔ G0/0</text>
+</g>
+<g id="node11" class="node">
+<title>SRV1</title>
+<path fill="#e2f1ea" stroke="#bccce0" stroke-width="1.3" d="M320.5,-48C320.5,-48 251.5,-48 251.5,-48 245.5,-48 239.5,-42 239.5,-36 239.5,-36 239.5,-12 239.5,-12 239.5,-6 245.5,0 251.5,0 251.5,0 320.5,0 320.5,0 326.5,0 332.5,-6 332.5,-12 332.5,-12 332.5,-36 332.5,-36 332.5,-42 326.5,-48 320.5,-48"/>
+<text text-anchor="middle" x="286" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">SRV1</text>
+<text text-anchor="middle" x="286" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">Server&#45;PT</text>
+</g>
+<g id="edge17" class="edge">
+<title>SW2&#45;&#45;SRV1</title>
+<g id="a_edge17"><a xlink:title="SW2 FastEthernet0/2 ↔ SRV1 FastEthernet0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M293.02,-106.96C291.53,-89.57 289.5,-65.81 288,-48.35"/>
+</a>
+</g>
+<text text-anchor="middle" x="314" y="-75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/2 ↔ F0</text>
+</g>
+<g id="node12" class="node">
+<title>SRV2</title>
+<path fill="#e2f1ea" stroke="#bccce0" stroke-width="1.3" d="M467.5,-48C467.5,-48 398.5,-48 398.5,-48 392.5,-48 386.5,-42 386.5,-36 386.5,-36 386.5,-12 386.5,-12 386.5,-6 392.5,0 398.5,0 398.5,0 467.5,0 467.5,0 473.5,0 479.5,-6 479.5,-12 479.5,-12 479.5,-36 479.5,-36 479.5,-42 473.5,-48 467.5,-48"/>
+<text text-anchor="middle" x="433" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">SRV2</text>
+<text text-anchor="middle" x="433" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">Server&#45;PT</text>
+</g>
+<g id="edge18" class="edge">
+<title>SW2&#45;&#45;SRV2</title>
+<g id="a_edge18"><a xlink:title="SW2 FastEthernet0/3 ↔ SRV2 FastEthernet0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M325.28,-106.96C348.13,-89.57 379.36,-65.81 402.31,-48.35"/>
+</a>
+</g>
+<text text-anchor="middle" x="392" y="-75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/3 ↔ F0</text>
+</g>
+<g id="node9" class="node">
+<title>FW1</title>
+<path fill="#f7e9d8" stroke="#bccce0" stroke-width="1.3" d="M187.5,-369C187.5,-369 148.5,-369 148.5,-369 142.5,-369 136.5,-363 136.5,-357 136.5,-357 136.5,-333 136.5,-333 136.5,-327 142.5,-321 148.5,-321 148.5,-321 187.5,-321 187.5,-321 193.5,-321 199.5,-327 199.5,-333 199.5,-333 199.5,-357 199.5,-357 199.5,-363 193.5,-369 187.5,-369"/>
+<text text-anchor="middle" x="168" y="-348.8" font-family="DejaVu Sans" font-size="14.00" fill="#76562c">FW1</text>
+<text text-anchor="middle" x="168" y="-333.8" font-family="DejaVu Sans" font-size="14.00" fill="#76562c">5505</text>
+</g>
+<g id="edge11" class="edge">
+<title>R1&#45;&#45;FW1</title>
+<g id="a_edge11"><a xlink:title="R1 GigabitEthernet0/1 ↔ FW1 Ethernet0/0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M168,-262.35C168,-279.81 168,-303.57 168,-320.96"/>
+</a>
+</g>
+<text text-anchor="middle" x="197" y="-289" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ E0/0</text>
+</g>
+<g id="node10" class="node">
+<title>FW2</title>
+<path fill="#f7e9d8" stroke="#bccce0" stroke-width="1.3" d="M304.5,-262C304.5,-262 265.5,-262 265.5,-262 259.5,-262 253.5,-256 253.5,-250 253.5,-250 253.5,-226 253.5,-226 253.5,-220 259.5,-214 265.5,-214 265.5,-214 304.5,-214 304.5,-214 310.5,-214 316.5,-220 316.5,-226 316.5,-226 316.5,-250 316.5,-250 316.5,-256 310.5,-262 304.5,-262"/>
+<text text-anchor="middle" x="285" y="-241.8" font-family="DejaVu Sans" font-size="14.00" fill="#76562c">FW2</text>
+<text text-anchor="middle" x="285" y="-226.8" font-family="DejaVu Sans" font-size="14.00" fill="#76562c">5505</text>
+</g>
+<g id="edge15" class="edge">
+<title>R2&#45;&#45;FW2</title>
+<g id="a_edge15"><a xlink:title="R2 GigabitEthernet0/1 ↔ FW2 Ethernet0/0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M285,-320.96C285,-303.57 285,-279.81 285,-262.35"/>
+</a>
+</g>
+<text text-anchor="middle" x="314" y="-289" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ E0/0</text>
+</g>
+<g id="node6" class="node">
+<title>PC2</title>
+<path fill="#e2f1ea" stroke="#bccce0" stroke-width="1.3" d="M174,-48C174,-48 132,-48 132,-48 126,-48 120,-42 120,-36 120,-36 120,-12 120,-12 120,-6 126,0 132,0 132,0 174,0 174,0 180,0 186,-6 186,-12 186,-12 186,-36 186,-36 186,-42 180,-48 174,-48"/>
+<text text-anchor="middle" x="153" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">PC2</text>
+<text text-anchor="middle" x="153" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">PC&#45;PT</text>
+</g>
+<g id="edge8" class="edge">
+<title>PC2&#45;&#45;SW1</title>
+<g id="a_edge8"><a xlink:title="PC2 FastEthernet0 ↔ SW1 FastEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M149.89,-48.35C147.56,-65.81 144.39,-89.57 142.07,-106.96"/>
+</a>
+</g>
+<text text-anchor="middle" x="171" y="-75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/1</text>
+</g>
+<g id="node7" class="node">
+<title>PC1</title>
+<path fill="#e2f1ea" stroke="#bccce0" stroke-width="1.3" d="M54,-48C54,-48 12,-48 12,-48 6,-48 0,-42 0,-36 0,-36 0,-12 0,-12 0,-6 6,0 12,0 12,0 54,0 54,0 60,0 66,-6 66,-12 66,-12 66,-36 66,-36 66,-42 60,-48 54,-48"/>
+<text text-anchor="middle" x="33" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">PC1</text>
+<text text-anchor="middle" x="33" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#235441">PC&#45;PT</text>
+</g>
+<g id="edge9" class="edge">
+<title>PC1&#45;&#45;SW1</title>
+<g id="a_edge9"><a xlink:title="PC1 FastEthernet0 ↔ SW1 FastEthernet0/2">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M56.57,-48.35C74.2,-65.81 98.19,-89.57 115.74,-106.96"/>
+</a>
+</g>
+<text text-anchor="middle" x="114" y="-75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/2</text>
+</g>
+<g id="edge12" class="edge">
+<title>FW1&#45;&#45;The Internet</title>
+<g id="a_edge12"><a xlink:title="FW1 Ethernet0/1 ↔ The Internet GigabitEthernet0/0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M189.25,-369.26C204,-385.39 221,-404 221,-404 221,-404 237.25,-415.93 253.37,-427.78"/>
+</a>
+</g>
+<text text-anchor="middle" x="250" y="-396" font-family="DejaVu Sans" font-size="10.00" fill="#516782">E0/1 ↔ G0/0</text>
+</g>
+<g id="edge16" class="edge">
+<title>FW2&#45;&#45;SW2</title>
+<g id="a_edge16"><a xlink:title="FW2 Ethernet0/1 ↔ SW2 FastEthernet0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M287.19,-213.96C288.85,-196.57 291.11,-172.81 292.78,-155.35"/>
+</a>
+</g>
+<text text-anchor="middle" x="318.5" y="-182" font-family="DejaVu Sans" font-size="10.00" fill="#516782">E0/1 ↔ F0/1</text>
+</g>
+</g>
+</svg>

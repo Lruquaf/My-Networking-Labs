@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="454pt" height="361pt"
+ viewBox="0.00 0.00 453.94 360.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(30.54 331.8)">
+<title>lab</title>
+<polygon fill="#f5f8fd" stroke="transparent" points="-30.54,28.8 -30.54,-331.8 423.4,-331.8 423.4,28.8 -30.54,28.8"/>
+<text text-anchor="middle" x="196.43" y="-281.4" font-family="DejaVu Sans" font-size="22.00" fill="#193452">Day 20 · STP topolojisi</text>
+<g id="edge1" class="edge">
+<title>SW1&#45;&#45;SW2</title>
+<g id="a_edge1"><a xlink:title="SW1 F0/1 ↔ SW2 F0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M109.16,-246.17C162.08,-248.28 247.42,-248.28 300.37,-246.17"/>
+</a>
+</g>
+<text text-anchor="middle" x="176.25" y="-261.75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1 ↔ F0/1</text>
+<text text-anchor="middle" x="176.25" y="-250.75" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Cost 19</text>
+</g>
+<g id="edge2" class="edge">
+<title>SW1&#45;&#45;SW2</title>
+<g id="a_edge2"><a xlink:title="SW1 F0/2 ↔ SW2 F0/2">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M109.16,-235.83C162.08,-233.72 247.42,-233.72 300.37,-235.83"/>
+</a>
+</g>
+<text text-anchor="middle" x="176.25" y="-226.25" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/2 ↔ F0/2</text>
+<text text-anchor="middle" x="176.25" y="-215.25" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Cost 19</text>
+</g>
+<g id="edge5" class="edge">
+<title>SW1&#45;&#45;SW3</title>
+<g id="a_edge5"><a xlink:title="SW1 F0/4 ↔ SW3 F0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M66.96,-210.9C69.21,-174.55 69.34,-113.4 67.35,-74.15"/>
+</a>
+</g>
+<text text-anchor="middle" x="40.24" y="-157.61" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/4 ↔ F0/1</text>
+<text text-anchor="middle" x="40.24" y="-146.61" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Cost 19</text>
+</g>
+<g id="edge6" class="edge">
+<title>SW1&#45;&#45;SW3</title>
+<g id="a_edge6"><a xlink:title="SW1 F0/3 ↔ SW3 F0/2">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M57.04,-210.9C54.79,-174.55 54.66,-113.4 56.65,-74.15"/>
+</a>
+</g>
+<text text-anchor="middle" x="26.76" y="-135.61" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/3 ↔ F0/2</text>
+<text text-anchor="middle" x="26.76" y="-124.61" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Cost 19</text>
+</g>
+<g id="edge7" class="edge">
+<title>SW2&#45;&#45;SW3</title>
+<g id="a_edge7"><a xlink:title="SW2 F0/3 ↔ SW3 F0/3">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M305.46,-210.9C254.56,-174.55 168.96,-113.4 114.01,-74.15"/>
+</a>
+</g>
+<text text-anchor="middle" x="182.76" y="-157.61" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/3 ↔ F0/3</text>
+<text text-anchor="middle" x="182.76" y="-146.61" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Cost 19</text>
+</g>
+<g id="edge3" class="edge">
+<title>SW2&#45;&#45;SW4</title>
+<g id="a_edge3"><a xlink:title="SW2 G0/1 ↔ SW4 G0/1">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M347.6,-210.9C347.6,-172.33 347.6,-105.85 347.6,-67.22"/>
+</a>
+</g>
+<text text-anchor="middle" x="317.6" y="-153.08" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ G0/1</text>
+<text text-anchor="middle" x="317.6" y="-142.08" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Cost 4</text>
+</g>
+<g id="edge4" class="edge">
+<title>SW3&#45;&#45;SW4</title>
+<g id="a_edge4"><a xlink:title="SW3 G0/1 ↔ SW4 G0/2">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M124.32,-37C177.34,-37 252.32,-37 300.46,-37"/>
+</a>
+</g>
+<text text-anchor="middle" x="184.22" y="-51" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ G0/2</text>
+<text text-anchor="middle" x="184.22" y="-40" font-family="DejaVu Sans" font-size="10.00" fill="#516782">Cost 4</text>
+</g>
+<g id="node1" class="node">
+<title>SW1</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M97,-271C97,-271 27,-271 27,-271 21,-271 15,-265 15,-259 15,-259 15,-223 15,-223 15,-217 21,-211 27,-211 27,-211 97,-211 97,-211 103,-211 109,-217 109,-223 109,-223 109,-259 109,-259 109,-265 103,-271 97,-271"/>
+<text text-anchor="middle" x="62" y="-251.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW1</text>
+<text text-anchor="middle" x="62" y="-237.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+<text text-anchor="middle" x="62" y="-223.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">Pri 32768</text>
+</g>
+<g id="node2" class="node">
+<title>SW2</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M382.6,-271C382.6,-271 312.6,-271 312.6,-271 306.6,-271 300.6,-265 300.6,-259 300.6,-259 300.6,-223 300.6,-223 300.6,-217 306.6,-211 312.6,-211 312.6,-211 382.6,-211 382.6,-211 388.6,-211 394.6,-217 394.6,-223 394.6,-223 394.6,-259 394.6,-259 394.6,-265 388.6,-271 382.6,-271"/>
+<text text-anchor="middle" x="347.6" y="-251.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW2</text>
+<text text-anchor="middle" x="347.6" y="-237.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+<text text-anchor="middle" x="347.6" y="-223.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">Pri 28672</text>
+</g>
+<g id="node3" class="node">
+<title>SW3</title>
+<path fill="#dcefe7" stroke="#57a682" stroke-width="1.3" d="M112,-74C112,-74 12,-74 12,-74 6,-74 0,-68 0,-62 0,-62 0,-12 0,-12 0,-6 6,0 12,0 12,0 112,0 112,0 118,0 124,-6 124,-12 124,-12 124,-62 124,-62 124,-68 118,-74 112,-74"/>
+<text text-anchor="middle" x="62" y="-54.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">SW3</text>
+<text text-anchor="middle" x="62" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">2960&#45;24TT</text>
+<text text-anchor="middle" x="62" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">ROOT · VLAN 1</text>
+<text text-anchor="middle" x="62" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">Pri 24576</text>
+</g>
+<g id="node4" class="node">
+<title>SW4</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M382.6,-67C382.6,-67 312.6,-67 312.6,-67 306.6,-67 300.6,-61 300.6,-55 300.6,-55 300.6,-19 300.6,-19 300.6,-13 306.6,-7 312.6,-7 312.6,-7 382.6,-7 382.6,-7 388.6,-7 394.6,-13 394.6,-19 394.6,-19 394.6,-55 394.6,-55 394.6,-61 388.6,-67 382.6,-67"/>
+<text text-anchor="middle" x="347.6" y="-47.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW4</text>
+<text text-anchor="middle" x="347.6" y="-33.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+<text text-anchor="middle" x="347.6" y="-19.6" font-family="DejaVu Sans" font-size="13.00" fill="#214777">Pri 32768</text>
+</g>
+</g>
+</svg>

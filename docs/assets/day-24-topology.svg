@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1105pt" height="782pt"
+ viewBox="0.00 0.00 1104.60 782.20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 753.4)">
+<title>lab</title>
+<polygon fill="#f5f8fd" stroke="transparent" points="-28.8,28.8 -28.8,-753.4 1075.8,-753.4 1075.8,28.8 -28.8,28.8"/>
+<text text-anchor="middle" x="523.5" y="-703" font-family="DejaVu Sans" font-size="22.00" fill="#193452">Day 24 · OSPF ana yol ve statik yedek</text>
+<g id="edge10" class="edge">
+<title>R1&#45;&#45;R2</title>
+<g id="a_edge10"><a xlink:title="R1 G0/2/0 ↔ R2 G0/2/0">
+<path fill="none" stroke="#c46c67" stroke-width="1.8" stroke-dasharray="5,2" d="M397.54,-417.6C469.7,-417.6 573.47,-417.6 645.59,-417.6"/>
+</a>
+</g>
+<text text-anchor="middle" x="473.08" y="-431.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/2/0 ↔ G0/2/0</text>
+<text text-anchor="middle" x="473.08" y="-420.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">10.0.0.0/30 · KAPALI</text>
+</g>
+<g id="edge3" class="edge">
+<title>R1&#45;&#45;SW1</title>
+<g id="a_edge3"><a xlink:title="R1 G0/1 ↔ SW1 G0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M314.1,-373.39C314.1,-322.85 314.1,-242.03 314.1,-202.66"/>
+</a>
+</g>
+<text text-anchor="middle" x="284.1" y="-286.83" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ G0/1</text>
+</g>
+<g id="edge4" class="edge">
+<title>R2&#45;&#45;SW2</title>
+<g id="a_edge4"><a xlink:title="R2 G0/1 ↔ SW2 G0/1">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M728.9,-380.41C728.9,-330.73 728.9,-244.18 728.9,-202.85"/>
+</a>
+</g>
+<text text-anchor="middle" x="698.9" y="-291.5" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ G0/1</text>
+</g>
+<g id="edge9" class="edge">
+<title>R2&#45;&#45;ISPBR2</title>
+<g id="a_edge9"><a xlink:title="R2 G0/1/0 ↔ ISPBR2 G0/0/0">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M811.98,-417.6C845.04,-417.6 882.58,-417.6 913.81,-417.6"/>
+</a>
+</g>
+<text text-anchor="middle" x="863.58" y="-409.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1/0 ↔ G0/0/0</text>
+<text text-anchor="middle" x="863.58" y="-398.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">203.0.113.12/30</text>
+</g>
+<g id="edge1" class="edge">
+<title>SPR1&#45;&#45;R1</title>
+<g id="a_edge1"><a xlink:title="SPR1 G0/0/0 ↔ R1 G0/0/0">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M314.1,-618.41C314.1,-576.05 314.1,-506.89 314.1,-461.81"/>
+</a>
+</g>
+<text text-anchor="middle" x="275.1" y="-555.13" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/0/0 ↔ G0/0/0</text>
+<text text-anchor="middle" x="275.1" y="-544.13" font-family="DejaVu Sans" font-size="10.00" fill="#516782">203.0.113.0/30</text>
+</g>
+<g id="edge7" class="edge">
+<title>SPR1&#45;&#45;SPR2</title>
+<g id="a_edge7"><a xlink:title="SPR1 G0/1/0 ↔ SPR2 G0/1/0">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M376.65,-655.6C454.84,-655.6 587.91,-655.6 666.18,-655.6"/>
+</a>
+</g>
+<text text-anchor="middle" x="482.39" y="-669.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1/0 ↔ G0/1/0</text>
+<text text-anchor="middle" x="482.39" y="-658.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">192.168.1.0/30</text>
+</g>
+<g id="edge2" class="edge">
+<title>SPR2&#45;&#45;R2</title>
+<g id="a_edge2"><a xlink:title="SPR2 G0/0/0 ↔ R2 G0/0/0">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M728.9,-618.41C728.9,-573.83 728.9,-499.56 728.9,-454.92"/>
+</a>
+</g>
+<text text-anchor="middle" x="689.9" y="-550.69" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/0/0 ↔ G0/0/0</text>
+<text text-anchor="middle" x="689.9" y="-539.69" font-family="DejaVu Sans" font-size="10.00" fill="#516782">203.0.113.4/30</text>
+</g>
+<g id="edge6" class="edge">
+<title>SW1&#45;&#45;PC1</title>
+<g id="a_edge6"><a xlink:title="SW1 F0/1 ↔ PC1 F0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M314.1,-156.55C314.1,-130.65 314.1,-88.52 314.1,-60.05"/>
+</a>
+</g>
+<text text-anchor="middle" x="290.1" y="-112.26" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1 ↔ F0</text>
+</g>
+<g id="edge5" class="edge">
+<title>SW2&#45;&#45;SRV1</title>
+<g id="a_edge5"><a xlink:title="SW2 F0/1 ↔ SRV1 F0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M728.9,-156.55C728.9,-130.65 728.9,-88.52 728.9,-60.05"/>
+</a>
+</g>
+<text text-anchor="middle" x="704.9" y="-112.26" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1 ↔ F0</text>
+</g>
+<g id="edge8" class="edge">
+<title>ISPBR1&#45;&#45;R1</title>
+<g id="a_edge8"><a xlink:title="ISPBR1 G0/0/0 ↔ R1 G0/1/0">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M125.02,-417.6C157.03,-417.6 196.45,-417.6 230.99,-417.6"/>
+</a>
+</g>
+<text text-anchor="middle" x="177.06" y="-409.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/0/0 ↔ G0/1/0</text>
+<text text-anchor="middle" x="177.06" y="-398.6" font-family="DejaVu Sans" font-size="10.00" fill="#516782">203.0.113.8/30</text>
+</g>
+<g id="node1" class="node">
+<title>R1</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M385.1,-461.6C385.1,-461.6 243.1,-461.6 243.1,-461.6 237.1,-461.6 231.1,-455.6 231.1,-449.6 231.1,-449.6 231.1,-385.6 231.1,-385.6 231.1,-379.6 237.1,-373.6 243.1,-373.6 243.1,-373.6 385.1,-373.6 385.1,-373.6 391.1,-373.6 397.1,-379.6 397.1,-385.6 397.1,-385.6 397.1,-449.6 397.1,-449.6 397.1,-455.6 391.1,-461.6 385.1,-461.6"/>
+<text text-anchor="middle" x="314.1" y="-442.2" font-family="DejaVu Sans" font-size="13.00" fill="white">R1</text>
+<text text-anchor="middle" x="314.1" y="-428.2" font-family="DejaVu Sans" font-size="13.00" fill="white">2911</text>
+<text text-anchor="middle" x="314.1" y="-414.2" font-family="DejaVu Sans" font-size="13.00" fill="white">LAN: 10.0.1.254/24</text>
+<text text-anchor="middle" x="314.1" y="-400.2" font-family="DejaVu Sans" font-size="13.00" fill="white">G0/2/0: SHUTDOWN</text>
+<text text-anchor="middle" x="314.1" y="-386.2" font-family="DejaVu Sans" font-size="13.00" fill="white">Yedek: SPR1 · AD 111</text>
+</g>
+<g id="node2" class="node">
+<title>R2</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M799.9,-454.6C799.9,-454.6 657.9,-454.6 657.9,-454.6 651.9,-454.6 645.9,-448.6 645.9,-442.6 645.9,-442.6 645.9,-392.6 645.9,-392.6 645.9,-386.6 651.9,-380.6 657.9,-380.6 657.9,-380.6 799.9,-380.6 799.9,-380.6 805.9,-380.6 811.9,-386.6 811.9,-392.6 811.9,-392.6 811.9,-442.6 811.9,-442.6 811.9,-448.6 805.9,-454.6 799.9,-454.6"/>
+<text text-anchor="middle" x="728.9" y="-435.2" font-family="DejaVu Sans" font-size="13.00" fill="white">R2</text>
+<text text-anchor="middle" x="728.9" y="-421.2" font-family="DejaVu Sans" font-size="13.00" fill="white">2911</text>
+<text text-anchor="middle" x="728.9" y="-407.2" font-family="DejaVu Sans" font-size="13.00" fill="white">LAN: 10.0.2.254/24</text>
+<text text-anchor="middle" x="728.9" y="-393.2" font-family="DejaVu Sans" font-size="13.00" fill="white">Yedek: SPR2 · AD 111</text>
+</g>
+<g id="node3" class="node">
+<title>SPR1</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M364.6,-692.6C364.6,-692.6 263.6,-692.6 263.6,-692.6 257.6,-692.6 251.6,-686.6 251.6,-680.6 251.6,-680.6 251.6,-630.6 251.6,-630.6 251.6,-624.6 257.6,-618.6 263.6,-618.6 263.6,-618.6 364.6,-618.6 364.6,-618.6 370.6,-618.6 376.6,-624.6 376.6,-630.6 376.6,-630.6 376.6,-680.6 376.6,-680.6 376.6,-686.6 370.6,-692.6 364.6,-692.6"/>
+<text text-anchor="middle" x="314.1" y="-673.2" font-family="DejaVu Sans" font-size="13.00" fill="white">SPR1</text>
+<text text-anchor="middle" x="314.1" y="-659.2" font-family="DejaVu Sans" font-size="13.00" fill="white">2911</text>
+<text text-anchor="middle" x="314.1" y="-645.2" font-family="DejaVu Sans" font-size="13.00" fill="white">203.0.113.1/30</text>
+<text text-anchor="middle" x="314.1" y="-631.2" font-family="DejaVu Sans" font-size="13.00" fill="white">192.168.1.1/30</text>
+</g>
+<g id="node4" class="node">
+<title>SPR2</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M779.4,-692.6C779.4,-692.6 678.4,-692.6 678.4,-692.6 672.4,-692.6 666.4,-686.6 666.4,-680.6 666.4,-680.6 666.4,-630.6 666.4,-630.6 666.4,-624.6 672.4,-618.6 678.4,-618.6 678.4,-618.6 779.4,-618.6 779.4,-618.6 785.4,-618.6 791.4,-624.6 791.4,-630.6 791.4,-630.6 791.4,-680.6 791.4,-680.6 791.4,-686.6 785.4,-692.6 779.4,-692.6"/>
+<text text-anchor="middle" x="728.9" y="-673.2" font-family="DejaVu Sans" font-size="13.00" fill="white">SPR2</text>
+<text text-anchor="middle" x="728.9" y="-659.2" font-family="DejaVu Sans" font-size="13.00" fill="white">2911</text>
+<text text-anchor="middle" x="728.9" y="-645.2" font-family="DejaVu Sans" font-size="13.00" fill="white">203.0.113.5/30</text>
+<text text-anchor="middle" x="728.9" y="-631.2" font-family="DejaVu Sans" font-size="13.00" fill="white">192.168.1.2/30</text>
+</g>
+<g id="node5" class="node">
+<title>SW1</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M349.1,-202.6C349.1,-202.6 279.1,-202.6 279.1,-202.6 273.1,-202.6 267.1,-196.6 267.1,-190.6 267.1,-190.6 267.1,-168.6 267.1,-168.6 267.1,-162.6 273.1,-156.6 279.1,-156.6 279.1,-156.6 349.1,-156.6 349.1,-156.6 355.1,-156.6 361.1,-162.6 361.1,-168.6 361.1,-168.6 361.1,-190.6 361.1,-190.6 361.1,-196.6 355.1,-202.6 349.1,-202.6"/>
+<text text-anchor="middle" x="314.1" y="-183.2" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW1</text>
+<text text-anchor="middle" x="314.1" y="-169.2" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node6" class="node">
+<title>SW2</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M763.9,-202.6C763.9,-202.6 693.9,-202.6 693.9,-202.6 687.9,-202.6 681.9,-196.6 681.9,-190.6 681.9,-190.6 681.9,-168.6 681.9,-168.6 681.9,-162.6 687.9,-156.6 693.9,-156.6 693.9,-156.6 763.9,-156.6 763.9,-156.6 769.9,-156.6 775.9,-162.6 775.9,-168.6 775.9,-168.6 775.9,-190.6 775.9,-190.6 775.9,-196.6 769.9,-202.6 763.9,-202.6"/>
+<text text-anchor="middle" x="728.9" y="-183.2" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW2</text>
+<text text-anchor="middle" x="728.9" y="-169.2" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node7" class="node">
+<title>SRV1</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M766.9,-60C766.9,-60 690.9,-60 690.9,-60 684.9,-60 678.9,-54 678.9,-48 678.9,-48 678.9,-12 678.9,-12 678.9,-6 684.9,0 690.9,0 690.9,0 766.9,0 766.9,0 772.9,0 778.9,-6 778.9,-12 778.9,-12 778.9,-48 778.9,-48 778.9,-54 772.9,-60 766.9,-60"/>
+<text text-anchor="middle" x="728.9" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">SRV1</text>
+<text text-anchor="middle" x="728.9" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">Server&#45;PT</text>
+<text text-anchor="middle" x="728.9" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">10.0.2.1/24</text>
+</g>
+<g id="node8" class="node">
+<title>PC1</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M352.1,-60C352.1,-60 276.1,-60 276.1,-60 270.1,-60 264.1,-54 264.1,-48 264.1,-48 264.1,-12 264.1,-12 264.1,-6 270.1,0 276.1,0 276.1,0 352.1,0 352.1,0 358.1,0 364.1,-6 364.1,-12 364.1,-12 364.1,-48 364.1,-48 364.1,-54 358.1,-60 352.1,-60"/>
+<text text-anchor="middle" x="314.1" y="-40.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC1</text>
+<text text-anchor="middle" x="314.1" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+<text text-anchor="middle" x="314.1" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">10.0.1.1/24</text>
+</g>
+<g id="node9" class="node">
+<title>ISPBR1</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M113,-454.6C113,-454.6 12,-454.6 12,-454.6 6,-454.6 0,-448.6 0,-442.6 0,-442.6 0,-392.6 0,-392.6 0,-386.6 6,-380.6 12,-380.6 12,-380.6 113,-380.6 113,-380.6 119,-380.6 125,-386.6 125,-392.6 125,-392.6 125,-442.6 125,-442.6 125,-448.6 119,-454.6 113,-454.6"/>
+<text text-anchor="middle" x="62.5" y="-435.2" font-family="DejaVu Sans" font-size="13.00" fill="white">ISPBR1</text>
+<text text-anchor="middle" x="62.5" y="-421.2" font-family="DejaVu Sans" font-size="13.00" fill="white">2911</text>
+<text text-anchor="middle" x="62.5" y="-407.2" font-family="DejaVu Sans" font-size="13.00" fill="white">203.0.113.9/30</text>
+<text text-anchor="middle" x="62.5" y="-393.2" font-family="DejaVu Sans" font-size="13.00" fill="white">Lo0: 1.1.1.1/32</text>
+</g>
+<g id="node10" class="node">
+<title>ISPBR2</title>
+<path fill="#2458b6" stroke="#2458b6" stroke-width="1.3" d="M1035,-454.6C1035,-454.6 926,-454.6 926,-454.6 920,-454.6 914,-448.6 914,-442.6 914,-442.6 914,-392.6 914,-392.6 914,-386.6 920,-380.6 926,-380.6 926,-380.6 1035,-380.6 1035,-380.6 1041,-380.6 1047,-386.6 1047,-392.6 1047,-392.6 1047,-442.6 1047,-442.6 1047,-448.6 1041,-454.6 1035,-454.6"/>
+<text text-anchor="middle" x="980.5" y="-435.2" font-family="DejaVu Sans" font-size="13.00" fill="white">ISPBR2</text>
+<text text-anchor="middle" x="980.5" y="-421.2" font-family="DejaVu Sans" font-size="13.00" fill="white">2911</text>
+<text text-anchor="middle" x="980.5" y="-407.2" font-family="DejaVu Sans" font-size="13.00" fill="white">203.0.113.13/30</text>
+<text text-anchor="middle" x="980.5" y="-393.2" font-family="DejaVu Sans" font-size="13.00" fill="white">Lo0: 1.1.1.1/32</text>
+</g>
+</g>
+</svg>

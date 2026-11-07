@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="901pt" height="890pt"
+ viewBox="0.00 0.00 900.60 890.40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(28.8 861.6)">
+<title>lab</title>
+<polygon fill="#f5f8fd" stroke="transparent" points="-28.8,28.8 -28.8,-861.6 871.8,-861.6 871.8,28.8 -28.8,28.8"/>
+<text text-anchor="middle" x="421.5" y="-811.2" font-family="DejaVu Sans" font-size="22.00" fill="#193452">Day 22 · Rapid STP ve shared segmentler</text>
+<g id="edge3" class="edge">
+<title>SW1&#45;&#45;SW2</title>
+<g id="a_edge3"><a xlink:title="SW1 F0/1 ↔ SW2 F0/1">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M391.74,-471.8C449.08,-471.8 526.1,-471.8 574.93,-471.8"/>
+</a>
+</g>
+<text text-anchor="middle" x="458.03" y="-474.8" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1 ↔ F0/1</text>
+</g>
+<g id="edge7" class="edge">
+<title>SW1&#45;&#45;Hub1</title>
+<g id="a_edge7"><a xlink:title="SW1 F0/2 ↔ Hub1 F1">
+<path fill="none" stroke="#c6a14a" stroke-width="1.8" d="M279.41,-434.55C250.4,-409.15 209.79,-376.02 178.59,-352.28"/>
+</a>
+</g>
+<text text-anchor="middle" x="205.82" y="-395.79" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/2 ↔ F1</text>
+</g>
+<g id="edge8" class="edge">
+<title>SW1&#45;&#45;Hub1</title>
+<g id="a_edge8"><a xlink:title="SW1 F0/3 ↔ Hub1 F2">
+<path fill="none" stroke="#c6a14a" stroke-width="1.8" d="M260.59,-434.49C227.8,-409.11 187.66,-376.03 161.13,-352.32"/>
+</a>
+</g>
+<text text-anchor="middle" x="184.51" y="-384.78" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/3 ↔ F2</text>
+</g>
+<g id="edge4" class="edge">
+<title>SW3&#45;&#45;SW4</title>
+<g id="a_edge4"><a xlink:title="SW3 F0/1 ↔ SW4 F0/1">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M363.24,-186.2C420.74,-186.2 517.38,-186.2 574.9,-186.2"/>
+</a>
+</g>
+<text text-anchor="middle" x="440.56" y="-189.2" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/1 ↔ F0/1</text>
+</g>
+<g id="edge10" class="edge">
+<title>SW3&#45;&#45;PC3</title>
+<g id="a_edge10"><a xlink:title="SW3 F0/24 ↔ PC3 F0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M316.1,-163.16C316.1,-132.15 316.1,-77.27 316.1,-46.18"/>
+</a>
+</g>
+<text text-anchor="middle" x="289.1" y="-107.7" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/24 ↔ F0</text>
+</g>
+<g id="edge14" class="edge">
+<title>SW2&#45;&#45;SW3</title>
+<g id="a_edge14"><a xlink:title="SW2 G0/1 ↔ SW3 G0/1">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M597.32,-448.67C539.98,-395.15 398.68,-263.27 341.11,-209.55"/>
+</a>
+</g>
+<text text-anchor="middle" x="439.3" y="-332.19" font-family="DejaVu Sans" font-size="10.00" fill="#516782">G0/1 ↔ G0/1</text>
+</g>
+<g id="edge5" class="edge">
+<title>SW2&#45;&#45;SW4</title>
+<g id="a_edge5"><a xlink:title="SW2 F0/2 ↔ SW4 F0/2">
+<path fill="none" stroke="#8c69ad" stroke-width="1.8" d="M622.1,-448.43C622.1,-394.74 622.1,-263.11 622.1,-209.49"/>
+</a>
+</g>
+<text text-anchor="middle" x="593.6" y="-331.93" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/2 ↔ F0/2</text>
+</g>
+<g id="edge11" class="edge">
+<title>SW4&#45;&#45;PC6</title>
+<g id="a_edge11"><a xlink:title="SW4 F0/24 ↔ PC6 F0">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M622.1,-163.16C622.1,-132.15 622.1,-77.27 622.1,-46.18"/>
+</a>
+</g>
+<text text-anchor="middle" x="595.1" y="-107.7" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0/24 ↔ F0</text>
+</g>
+<g id="edge9" class="edge">
+<title>Hub0&#45;&#45;SW1</title>
+<g id="a_edge9"><a xlink:title="Hub0 F2 ↔ SW1 F0/24">
+<path fill="none" stroke="#c6a14a" stroke-width="1.8" d="M167.9,-598.04C197.7,-572.66 240.45,-536.24 272.39,-509.04"/>
+</a>
+</g>
+<text text-anchor="middle" x="192.34" y="-557.22" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F2 ↔ F0/24</text>
+</g>
+<g id="edge6" class="edge">
+<title>Hub1&#45;&#45;SW3</title>
+<g id="a_edge6"><a xlink:title="Hub1 F0 ↔ SW3 F0/2">
+<path fill="none" stroke="#c6a14a" stroke-width="1.8" d="M173.25,-292.02C206.95,-267.05 254.11,-232.12 284.87,-209.33"/>
+</a>
+</g>
+<text text-anchor="middle" x="206.16" y="-252.86" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/2</text>
+</g>
+<g id="edge1" class="edge">
+<title>PC1&#45;&#45;Hub0</title>
+<g id="a_edge1"><a xlink:title="PC1 F0 ↔ Hub0 F0">
+<path fill="none" stroke="#c6a14a" stroke-width="1.8" d="M46.21,-754.75C63.87,-728.85 92.6,-686.72 112.01,-658.25"/>
+</a>
+</g>
+<text text-anchor="middle" x="58.96" y="-710.46" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0</text>
+</g>
+<g id="edge2" class="edge">
+<title>PC2&#45;&#45;Hub0</title>
+<g id="a_edge2"><a xlink:title="PC2 F0 ↔ Hub0 F1">
+<path fill="none" stroke="#c6a14a" stroke-width="1.8" d="M230.29,-754.75C210.28,-728.85 177.72,-686.72 155.72,-658.25"/>
+</a>
+</g>
+<text text-anchor="middle" x="174.25" y="-710.46" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F1</text>
+</g>
+<g id="edge12" class="edge">
+<title>PC4&#45;&#45;SW2</title>
+<g id="a_edge12"><a xlink:title="PC4 F0 ↔ SW2 F0/23">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M622.1,-727.31C622.1,-674.7 622.1,-547.19 622.1,-494.83"/>
+</a>
+</g>
+<text text-anchor="middle" x="595.1" y="-613.98" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/23</text>
+</g>
+<g id="edge13" class="edge">
+<title>PC5&#45;&#45;SW2</title>
+<g id="a_edge13"><a xlink:title="PC5 F0 ↔ SW2 F0/24">
+<path fill="none" stroke="#8098b8" stroke-width="1.8" d="M781.91,-585.95C747.01,-561.02 690.17,-520.42 654.53,-494.96"/>
+</a>
+</g>
+<text text-anchor="middle" x="691.5" y="-543.66" font-family="DejaVu Sans" font-size="10.00" fill="#516782">F0 ↔ F0/24</text>
+</g>
+<g id="node1" class="node">
+<title>SW1</title>
+<path fill="#dcefe7" stroke="#57a682" stroke-width="1.3" d="M379.6,-508.8C379.6,-508.8 252.6,-508.8 252.6,-508.8 246.6,-508.8 240.6,-502.8 240.6,-496.8 240.6,-496.8 240.6,-446.8 240.6,-446.8 240.6,-440.8 246.6,-434.8 252.6,-434.8 252.6,-434.8 379.6,-434.8 379.6,-434.8 385.6,-434.8 391.6,-440.8 391.6,-446.8 391.6,-446.8 391.6,-496.8 391.6,-496.8 391.6,-502.8 385.6,-508.8 379.6,-508.8"/>
+<text text-anchor="middle" x="316.1" y="-489.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">SW1</text>
+<text text-anchor="middle" x="316.1" y="-475.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">2960&#45;24TT</text>
+<text text-anchor="middle" x="316.1" y="-461.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">ROOT · VLAN 1</text>
+<text text-anchor="middle" x="316.1" y="-447.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">F0/3: backup adayı</text>
+</g>
+<g id="node2" class="node">
+<title>SW3</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M351.1,-209.2C351.1,-209.2 281.1,-209.2 281.1,-209.2 275.1,-209.2 269.1,-203.2 269.1,-197.2 269.1,-197.2 269.1,-175.2 269.1,-175.2 269.1,-169.2 275.1,-163.2 281.1,-163.2 281.1,-163.2 351.1,-163.2 351.1,-163.2 357.1,-163.2 363.1,-169.2 363.1,-175.2 363.1,-175.2 363.1,-197.2 363.1,-197.2 363.1,-203.2 357.1,-209.2 351.1,-209.2"/>
+<text text-anchor="middle" x="316.1" y="-189.8" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW3</text>
+<text text-anchor="middle" x="316.1" y="-175.8" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node3" class="node">
+<title>SW2</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M657.1,-494.8C657.1,-494.8 587.1,-494.8 587.1,-494.8 581.1,-494.8 575.1,-488.8 575.1,-482.8 575.1,-482.8 575.1,-460.8 575.1,-460.8 575.1,-454.8 581.1,-448.8 587.1,-448.8 587.1,-448.8 657.1,-448.8 657.1,-448.8 663.1,-448.8 669.1,-454.8 669.1,-460.8 669.1,-460.8 669.1,-482.8 669.1,-482.8 669.1,-488.8 663.1,-494.8 657.1,-494.8"/>
+<text text-anchor="middle" x="622.1" y="-475.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW2</text>
+<text text-anchor="middle" x="622.1" y="-461.4" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node4" class="node">
+<title>SW4</title>
+<path fill="#e8effb" stroke="#bccce0" stroke-width="1.3" d="M657.1,-209.2C657.1,-209.2 587.1,-209.2 587.1,-209.2 581.1,-209.2 575.1,-203.2 575.1,-197.2 575.1,-197.2 575.1,-175.2 575.1,-175.2 575.1,-169.2 581.1,-163.2 587.1,-163.2 587.1,-163.2 657.1,-163.2 657.1,-163.2 663.1,-163.2 669.1,-169.2 669.1,-175.2 669.1,-175.2 669.1,-197.2 669.1,-197.2 669.1,-203.2 663.1,-209.2 657.1,-209.2"/>
+<text text-anchor="middle" x="622.1" y="-189.8" font-family="DejaVu Sans" font-size="13.00" fill="#214777">SW4</text>
+<text text-anchor="middle" x="622.1" y="-175.8" font-family="DejaVu Sans" font-size="13.00" fill="#214777">2960&#45;24TT</text>
+</g>
+<g id="node5" class="node">
+<title>Hub0</title>
+<path fill="#fff1cf" stroke="#c6a14a" stroke-width="1.3" d="M198.5,-658.2C198.5,-658.2 66.5,-658.2 66.5,-658.2 60.5,-658.2 54.5,-652.2 54.5,-646.2 54.5,-646.2 54.5,-610.2 54.5,-610.2 54.5,-604.2 60.5,-598.2 66.5,-598.2 66.5,-598.2 198.5,-598.2 198.5,-598.2 204.5,-598.2 210.5,-604.2 210.5,-610.2 210.5,-610.2 210.5,-646.2 210.5,-646.2 210.5,-652.2 204.5,-658.2 198.5,-658.2"/>
+<text text-anchor="middle" x="132.5" y="-638.8" font-family="DejaVu Sans" font-size="13.00" fill="#73551b">Hub0</text>
+<text text-anchor="middle" x="132.5" y="-624.8" font-family="DejaVu Sans" font-size="13.00" fill="#73551b">Hub&#45;PT</text>
+<text text-anchor="middle" x="132.5" y="-610.8" font-family="DejaVu Sans" font-size="13.00" fill="#73551b">Yalnızca PC1 ve PC2</text>
+</g>
+<g id="node6" class="node">
+<title>Hub1</title>
+<path fill="#fff1cf" stroke="#c6a14a" stroke-width="1.3" d="M212.5,-352.2C212.5,-352.2 52.5,-352.2 52.5,-352.2 46.5,-352.2 40.5,-346.2 40.5,-340.2 40.5,-340.2 40.5,-304.2 40.5,-304.2 40.5,-298.2 46.5,-292.2 52.5,-292.2 52.5,-292.2 212.5,-292.2 212.5,-292.2 218.5,-292.2 224.5,-298.2 224.5,-304.2 224.5,-304.2 224.5,-340.2 224.5,-340.2 224.5,-346.2 218.5,-352.2 212.5,-352.2"/>
+<text text-anchor="middle" x="132.5" y="-332.8" font-family="DejaVu Sans" font-size="13.00" fill="#73551b">Hub1</text>
+<text text-anchor="middle" x="132.5" y="-318.8" font-family="DejaVu Sans" font-size="13.00" fill="#73551b">Hub&#45;PT</text>
+<text text-anchor="middle" x="132.5" y="-304.8" font-family="DejaVu Sans" font-size="13.00" fill="#73551b">Switch shared segmenti</text>
+</g>
+<g id="node7" class="node">
+<title>PC6</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M640.6,-46C640.6,-46 603.6,-46 603.6,-46 597.6,-46 591.6,-40 591.6,-34 591.6,-34 591.6,-12 591.6,-12 591.6,-6 597.6,0 603.6,0 603.6,0 640.6,0 640.6,0 646.6,0 652.6,-6 652.6,-12 652.6,-12 652.6,-34 652.6,-34 652.6,-40 646.6,-46 640.6,-46"/>
+<text text-anchor="middle" x="622.1" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC6</text>
+<text text-anchor="middle" x="622.1" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+</g>
+<g id="node8" class="node">
+<title>PC1</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M49,-800.8C49,-800.8 12,-800.8 12,-800.8 6,-800.8 0,-794.8 0,-788.8 0,-788.8 0,-766.8 0,-766.8 0,-760.8 6,-754.8 12,-754.8 12,-754.8 49,-754.8 49,-754.8 55,-754.8 61,-760.8 61,-766.8 61,-766.8 61,-788.8 61,-788.8 61,-794.8 55,-800.8 49,-800.8"/>
+<text text-anchor="middle" x="30.5" y="-781.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC1</text>
+<text text-anchor="middle" x="30.5" y="-767.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+</g>
+<g id="node9" class="node">
+<title>PC2</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M266.6,-800.8C266.6,-800.8 229.6,-800.8 229.6,-800.8 223.6,-800.8 217.6,-794.8 217.6,-788.8 217.6,-788.8 217.6,-766.8 217.6,-766.8 217.6,-760.8 223.6,-754.8 229.6,-754.8 229.6,-754.8 266.6,-754.8 266.6,-754.8 272.6,-754.8 278.6,-760.8 278.6,-766.8 278.6,-766.8 278.6,-788.8 278.6,-788.8 278.6,-794.8 272.6,-800.8 266.6,-800.8"/>
+<text text-anchor="middle" x="248.1" y="-781.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC2</text>
+<text text-anchor="middle" x="248.1" y="-767.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+</g>
+<g id="node10" class="node">
+<title>PC3</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M334.6,-46C334.6,-46 297.6,-46 297.6,-46 291.6,-46 285.6,-40 285.6,-34 285.6,-34 285.6,-12 285.6,-12 285.6,-6 291.6,0 297.6,0 297.6,0 334.6,0 334.6,0 340.6,0 346.6,-6 346.6,-12 346.6,-12 346.6,-34 346.6,-34 346.6,-40 340.6,-46 334.6,-46"/>
+<text text-anchor="middle" x="316.1" y="-26.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC3</text>
+<text text-anchor="middle" x="316.1" y="-12.6" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+</g>
+<g id="node11" class="node">
+<title>PC4</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M640.6,-773.6C640.6,-773.6 603.6,-773.6 603.6,-773.6 597.6,-773.6 591.6,-767.6 591.6,-761.6 591.6,-761.6 591.6,-739.6 591.6,-739.6 591.6,-733.6 597.6,-727.6 603.6,-727.6 603.6,-727.6 640.6,-727.6 640.6,-727.6 646.6,-727.6 652.6,-733.6 652.6,-739.6 652.6,-739.6 652.6,-761.6 652.6,-761.6 652.6,-767.6 646.6,-773.6 640.6,-773.6"/>
+<text text-anchor="middle" x="622.1" y="-754.2" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC4</text>
+<text text-anchor="middle" x="622.1" y="-740.2" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+</g>
+<g id="node12" class="node">
+<title>PC5</title>
+<path fill="#e2f1ea" stroke="#57a682" stroke-width="1.3" d="M831,-630.8C831,-630.8 794,-630.8 794,-630.8 788,-630.8 782,-624.8 782,-618.8 782,-618.8 782,-596.8 782,-596.8 782,-590.8 788,-584.8 794,-584.8 794,-584.8 831,-584.8 831,-584.8 837,-584.8 843,-590.8 843,-596.8 843,-596.8 843,-618.8 843,-618.8 843,-624.8 837,-630.8 831,-630.8"/>
+<text text-anchor="middle" x="812.5" y="-611.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC5</text>
+<text text-anchor="middle" x="812.5" y="-597.4" font-family="DejaVu Sans" font-size="13.00" fill="#235441">PC&#45;PT</text>
+</g>
+</g>
+</svg>
